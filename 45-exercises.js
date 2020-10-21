@@ -14,7 +14,7 @@ const assert = function(actual, expected, message = "") {
 
 // Keep this function here in order to add correct questions to the counter
 function addToDone(message) {
-    var node = document.createElement("LI");                 // Create a <li> node
+    var node = document.createElement("li");                 // Create a <li> node
     var textnode = document.createTextNode(message);         // Create a text node
     node.appendChild(textnode);                              // Append the text to <li>
     node.classList.add("finished");
@@ -34,6 +34,8 @@ function addToDone(message) {
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined to understand this error message.
+
+var doingJSRightNow = true;
 assert(doingJSRightNow, true, "Exercise 0"); 
 
 
@@ -58,6 +60,7 @@ addToDone("Exercise 2 is correct.");
 // Create a variable named vegetables and assign it an array of strings containing the following vegetables.
 // eggplant, broccoli, carrot, cauliflower, and zucchini
 
+var vegetables = test;
 assert(vegetables, ["eggplant", "broccoli", "carrot", "cauliflower", "zucchini"], "Exercise 3");
 addToDone("Exercise 3 is correct.");
 
