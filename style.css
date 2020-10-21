@@ -5,11 +5,17 @@
 
 body {
     background-color: #181d32;
+    font-family: 'Titillium Web', sans-serif;
     
 }
 
 header {
     margin: 1em;
+}
+
+img{
+  float: left;
+  max-width: 150px;
 }
 
 main {
@@ -19,6 +25,7 @@ main {
     grid-row-gap: 0px;
     margin: 1em;
     clear: both;
+    border: 3px dashed #ffc20e;
 }
 
 section {
@@ -35,19 +42,20 @@ h1 {
 }
 
 .instructions {
-    background-color: burlywood;
+    background-color: #fff;
 }
 
 .troubleshooting {
-    background-color: lavender;
+    background-color: #d8e1e2
 }
 
 .correct {
-    background-color: thistle;
+    background-color: #8db559;
 }
 
 section h2 {
     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .troubleshooting img {
