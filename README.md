@@ -2,7 +2,7 @@
 
 ## Rationale
 
-101 Exercises exists as a self-test tool for learning JS fundamentals including data types, operators, and writing user defined fuctions. There are also exercises for practicing with collections such as arrays, objects, and arrays of objects.
+45 Exercises exists as a self-test tool for learning JS fundamentals including data types, operators, and writing user defined fuctions. There are also exercises for practicing with collections such as arrays, objects, and arrays of objects.
 
 ## Quick Start
 
