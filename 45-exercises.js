@@ -43,7 +43,7 @@ assert(doingJSRightNow, true, "Exercise 0");
 // On the line below, create a variable named onMarsRightNow and assign it the boolean value of false
 // For more on variables, see https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables
 
-var onMarsRightNow = false;
+var onMarsRightnow = true 
 assert(onMarsRightNow, false, "Exercise 1");
 addToDone("Exercise 1 is correct.");
 
@@ -52,7 +52,7 @@ addToDone("Exercise 1 is correct.");
 // Create a variable named fruits and assign it an array of strings containing the following fruits.
 // mango, banana, guava, kiwi, and strawberry.
 
-var fruits =  ["mango", "banana", "guava", "kiwi", "strawberry"];
+var fruits =  ["apple" "mango", "banana", "guava", "kiwi", "strawberry"];
 assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry"], "Exercise 2");
 addToDone("Exercise 2 is correct.");
 
