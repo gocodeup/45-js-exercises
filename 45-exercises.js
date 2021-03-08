@@ -43,6 +43,7 @@ assert(doingJSRightNow, true, "Exercise 0");
 // On the line below, create a variable named onMarsRightNow and assign it the boolean value of false
 // For more on variables, see https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables
 
+
 assert(onMarsRightNow, false, "Exercise 1");
 addToDone("Exercise 1 is correct.");
 
@@ -67,6 +68,7 @@ addToDone("Exercise 3 is correct.");
 // Exercise 4
 // Create a variable named numbers and assign it an array of numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
+
 assert(numbers, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "Exercise 4");
 addToDone("Exercise 4 is correct.");
 
@@ -74,6 +76,7 @@ addToDone("Exercise 4 is correct.");
 // Exercise 5
 // Add the string "tomato" to the end of the fruits array. 
 // *Hint* Recommend finding and using a built-in JS operation to add to an array rather than recreating the array.
+
 
 assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry", "tomato"], "Exercise 5");
 addToDone("Exercise 5 is correct");
@@ -208,17 +211,16 @@ assert(addOne(negativeOddNumber), negativeOddNumber + 1, "Exercise 11");
 addToDone("Exercise 11 is correct.")
 
 
+
+
 // The next exercises will be focusing on basic operators in JS
-// Here is the documentation on comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
-// Here are some example functions that will demonstrate their usage https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
-
-
-
 // Exercise 12
 // Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
 // Think about the definition of a number that is positive. 
 // Is 5 positive? Is 0.25 positive? Is 0.00001 positive? Is -0.001 positive? 
 // Is zero itself positive? What about infinity? What about negative infinity?
+// Documentation for comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
+// HINT: Use this example code to see these operators in action usage https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
 // If you get stuck, be sure to check the example code and documentation listed above
 
 
