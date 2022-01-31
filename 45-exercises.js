@@ -220,7 +220,7 @@ addToDone("Exercise 11 is correct.")
 // Is 5 positive? Is 0.25 positive? Is 0.00001 positive? Is -0.001 positive? 
 // Is zero itself positive? What about infinity? What about negative infinity?
 // Documentation for comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
-// HINT: Use this example code to see these operators in action usage https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
+  // HINT: Use this example code to see these operators in action usage https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
 // If you get stuck, be sure to check the example code and documentation listed above
 
 
