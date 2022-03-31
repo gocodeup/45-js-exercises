@@ -10,12 +10,32 @@ body {
 }
 
 header {
-    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-img {
-  float: left;
+#logo {
   max-width: 150px;
+  margin-left:1em;
+}
+
+header > h1 {
+    margin-left: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+}
+
+header > a {
+  
+  margin-top: 3em;
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+
 }
 
 main {
@@ -33,13 +53,7 @@ section {
     min-height: 88vh;
 }
 
-h1 {
-    margin-left: 2em;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 2.5em;
-    color: #fff;
-    float: right;
-}
+
 
 .instructions {
     background-color: #fff;
@@ -63,6 +77,10 @@ section h2 {
     height: auto;
 }
 
+.troubleshooting li {
+  margin:0.25em;
+}
+
 .troubleshooting p:nth-last-child(1) {
   margin: 2em;
 }
@@ -74,4 +92,8 @@ section h2 {
 iframe {
   display: block;
 	margin: 0 auto; 
+}
+
+.instructions  li {
+  margin:0.25em;  
 }
