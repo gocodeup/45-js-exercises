@@ -23,7 +23,7 @@ function addToDone(message) {
 }
 
 
-// Welcome to 101 Exercises in JS
+// Welcome to 45 Exercises in JS
 // If you get "ReferenceError: someVariableName is not defined", that means you need to create a variable
 
 // Exercise #0, Example Problem:
